@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+* {
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    min-height: 100vh;
+}
+#tela {
+    width: 100%;
+    margin: 10px;
+    font-family: "Poppins";
+    color: black;
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+#tela2 {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Poppins';
+    text-align: center;
+    color: black;
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0);
+    
+
+}
+h1 {
+    font-family: 'Poppins';
+    text-align: center;
+}
+.card {
+    margin: 15px;
+    margin-left: 50px;
+    border-color: rgb(0 0 0 /0%);
+
+}
+.footer{
+    text-align:justify;
+    background-color: #a8a8a8;
+    width: auto;
+
+}
+.card-img-top{
+    padding: 7px;
+
+}
+main {
+    background: url("imagens/bg.avif") no repeat center center;
+    background-size: cover;
+    height: 92vh;
+    
+}
+.nav{
+    color: aliceblue;
+}
+.btn-primary{
+    margin: 7px;
+}
+
+
+  
+
+
