@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="pesquisa.css">
+    <script src="pesquisa.js" defer></script>
+    <title>Document</title>
+
+
+</head>
+<body>
+  <header>
+    <!--Cabeçalho -->
+    <nav class="navbar navbar-dark bg-dark">
+
+      <div class="container-fluid">
+        <a class="navbar-brand">CG2022</a>
+        <form class="d-flex" role="search">
+          <a href="index.html" class="btn btn-primary" role="button" data-bs-toggle="button">Home</a>
+          <a href="pesquisa.html" class="btn btn-primary" role="button" data-bs-toggle="button">pesquisa</a>
+          <ul id="listadegames"></ul>
+          <div class="content">
+          </div>
+        </form>
+      </div>
+    </nav>
+    <!--Fim Cabeçalho -->
+  </header>
+  <div class="container">
+    <div class="header clearfix">
+      <h3>Buscar Jogo</h3>
+      <div class="jumbotron">
+        <div class="col-lg-12">
+        <form class="input-group" id="formulario">
+          <input type="text" name="" class="form-control" id="pesquisar" placeholder="digite o nome do jogo">
+        
+        <span class="input-group-btn">
+          <button class="btn btn-primary" type="submit">Pesquisar</button>
+        </span>
+        </form>  
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Mostrar jogos-->
+<div class="container-fluid" id="container">
+  <div class="row" id="tela">
+  </div>
+</div>
+
+
+
+
+ 
+  
+  <script src="pesquisa.js"></script>
+</body>
+</html>
